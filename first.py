@@ -1,26 +1,3 @@
-# from flask import Flask
-# import sqlite3
-
-# app = Flask(__name__)
-
-# @app.route('/')
-# def pr():
-#     return "Hellooooo"
-
-# @app.route('/students')
-# def studentss():
-#     # Connect to the database
-#     conn = sqlite3.connect('st_data.sqlite3')
-#     cursor = conn.cursor()
-    
-#     # Fetch data from the `ss` table
-#     cursor.execute("SELECT * FROM ss")
-#     rows = cursor.fetchall()
-#     conn.close()
-
-# if __name__ == "__first__":
-#     app.run(debug=True)
-
 from flask import Flask
 import sqlite3
 
